@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "ms-dotnettools.csdevkit",
+    "humao.rest-client",
+    "dbaeumer.vscode-eslint"
+  ]
+}

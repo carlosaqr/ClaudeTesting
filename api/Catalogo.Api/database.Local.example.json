@@ -1,0 +1,8 @@
+{
+  // Copy to database.Local.json (gitignored) and fill in your real server.
+  "Database": {
+    "Provider": "SqlServer",
+    "ConnectionString": "Server=YOUR_SERVER;Database=Catalogo;User Id=YOUR_USER;Password=YOUR_PASSWORD;TrustServerCertificate=True",
+    "CreateIfMissing": false
+  }
+}

@@ -1,0 +1,28 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+
+# Local database files and credentials
+*.db
+*.db-shm
+*.db-wal
+database.Local.json
+appsettings.Local.json
+
+# Node / Vite
+node_modules/
+dist/
+web/.env
+web/.env.local
+*.local
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

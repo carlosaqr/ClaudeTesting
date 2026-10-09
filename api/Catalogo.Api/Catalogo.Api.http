@@ -1,0 +1,38 @@
+@api = http://localhost:5180
+
+### List / search
+GET {{api}}/api/items?search=login
+
+### Report
+GET {{api}}/api/report
+
+### Create
+POST {{api}}/api/items
+Content-Type: application/json
+
+{
+  "name": "Exportador a Excel",
+  "type": "Tool",
+  "status": "Active",
+  "description": "Exporta cualquier reporte a .xlsx con formato.",
+  "ownerTeam": "Data",
+  "contact": "Carlos Quiroz",
+  "tags": ["python", "excel"]
+}
+
+### Update (replace whole record)
+PUT {{api}}/api/items/1
+Content-Type: application/json
+
+{
+  "name": "Componente de login compartido",
+  "type": "Feature",
+  "status": "Deprecated",
+  "description": "Reemplazado por el login nuevo.",
+  "ownerTeam": "Equipo de ejemplo A",
+  "contact": "#canal-ejemplo",
+  "tags": ["auth"]
+}
+
+### Delete
+DELETE {{api}}/api/items/1

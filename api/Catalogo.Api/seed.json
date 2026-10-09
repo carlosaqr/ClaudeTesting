@@ -1,0 +1,38 @@
+[
+  {
+    "name": "EJEMPLO · Componente de login compartido",
+    "type": "Feature",
+    "status": "Active",
+    "description": "Pantalla y flujo de login reutilizable con SSO. Reemplazá esta entrada por una real.",
+    "ownerTeam": "Equipo de ejemplo A",
+    "contact": "#canal-ejemplo",
+    "tags": ["ejemplo", "auth", "frontend"]
+  },
+  {
+    "name": "EJEMPLO · Servicio de envío de mails",
+    "type": "Service",
+    "status": "Active",
+    "description": "API interna para mandar mails transaccionales con templates. Reemplazá esta entrada por una real.",
+    "ownerTeam": "Equipo de ejemplo B",
+    "contact": "#canal-ejemplo",
+    "tags": ["ejemplo", "backend", "notificaciones"]
+  },
+  {
+    "name": "EJEMPLO · Script de limpieza de datos",
+    "type": "Tool",
+    "status": "InDevelopment",
+    "description": "Notebook que normaliza CSVs de clientes antes de cargarlos. Reemplazá esta entrada por una real.",
+    "ownerTeam": "Data",
+    "contact": "Carlos Quiroz",
+    "tags": ["ejemplo", "python", "datos"]
+  },
+  {
+    "name": "EJEMPLO · Librería de reportes PDF",
+    "type": "Tool",
+    "status": "Deprecated",
+    "description": "Generaba reportes PDF desde plantillas HTML. Reemplazá esta entrada por una real.",
+    "ownerTeam": "Equipo de ejemplo A",
+    "contact": "#canal-ejemplo",
+    "tags": ["ejemplo", "reportes"]
+  }
+]
