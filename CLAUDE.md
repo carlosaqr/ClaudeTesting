@@ -46,6 +46,13 @@ Start the API before the web app. CI (`.github/workflows/ci.yml`) builds and tes
 - UI text is Spanish (Argentina); code, comments and commits are English.
 - Web: no UI library. Styles are in `src/index.css` with light and dark tokens. API calls go only through `src/api.ts`, and real-time only through `src/useCatalogHub.ts`.
 
+## Project skills (`.claude/skills/`)
+
+- `caveman`: Caveman makes AI coding agents respond in compressed caveman-style prose while preserving technical substance
+- `ponytail`: You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one.
+
+Claude Code loads these automatically when a request matches their description. You can also call one directly with `/add-catalog-field`.
+
 ## Out of scope for v1 (good next steps)
 
 Authentication and roles, EF migrations, pagination, an audit log of changes, and serving the built web app from the API (`wwwroot`) for a single deployment.
